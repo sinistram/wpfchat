@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WPFChat">
+</Property><Property Name="Solution File" Value="C:\temp\WPFChat\WPFChat.sln">
+</Property><Property Name="User Options File" Value="C:\temp\WPFChat\WPFChat.suo">
+</Property><Property Name="Date" Value="Tuesday, May 26, 2009">
+</Property><Property Name="Time" Value="17:40 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WPFChat.sln" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WPFChat.suo" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.suo">
+</Event><Event ErrorLevel="0" Project="WPFChat.Library" Source="WPFChat.Library\WPFChat.Library.csproj" Description="Project file successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Library\WPFChat.Library.csproj">
+</Event><Event ErrorLevel="0" Project="WPFChat.Library" Source="WPFChat.Library\GenericEventArgs.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Library\GenericEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Library" Source="WPFChat.Library\IChatServer.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Library\IChatServer.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Library" Source="WPFChat.Library\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Library\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Library" Source="WPFChat.Library\WPFChat.Library.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WPFChat.Library" Source="WPFChat.Library\WPFChat.Library.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\WPFChat.Server.csproj" Description="Project file successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Server\WPFChat.Server.csproj">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\ChatServer.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Server\ChatServer.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\ClientsRepository.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Server\ClientsRepository.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\Program.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Server\Program.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Server\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\App.config" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Server\App.config">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\WPFChat.Server.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WPFChat.Server" Source="WPFChat.Server\WPFChat.Server.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\WPFChat.Client.csproj" Description="Project file successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\WPFChat.Client.csproj">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\App.xaml.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Window1.xaml.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\ChatClientCallback.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\ChatClientCallback.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\ChatControl.xaml.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\ChatControl.xaml.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\Reference.cs" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\Reference.cs">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\app.config" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\app.config">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\App1.config" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\App1.config">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Properties\Settings.settings" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\ChatServer.wsdl" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\ChatServer.wsdl">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\mex.xsd" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\mex.xsd">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\mex1.xsd" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\mex1.xsd">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\mex2.xsd" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\mex2.xsd">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\configuration91.svcinfo" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\configuration91.svcinfo">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\configuration.svcinfo" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\configuration.svcinfo">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Service References\ChatServer\Reference.svcmap" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Service References\ChatServer\Reference.svcmap">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Properties\Resources.resx" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\App.xaml" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\App.xaml">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\ChatControl.xaml" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\ChatControl.xaml">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\Window1.xaml" Description="File successfully backed up as C:\temp\WPFChat\Backup\WPFChat.Client\Window1.xaml">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\WPFChat.Client.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WPFChat.Client" Source="WPFChat.Client\WPFChat.Client.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WPFChat.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WPFChat.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WPFChat.Library" Source="WPFChat.Library\WPFChat.Library.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WPFChat.Server" Source="WPFChat.Server\WPFChat.Server.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WPFChat.Client" Source="WPFChat.Client\WPFChat.Client.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="" Source="WPFChat.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="WPFChat.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

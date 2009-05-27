@@ -1,0 +1,5 @@
+C:\temp\WPFChat\WPFChat.Library\obj\Debug\ResolveAssemblyReference.cache
+C:\temp\WPFChat\WPFChat.Library\bin\Debug\WPFChat.Library.dll
+C:\temp\WPFChat\WPFChat.Library\bin\Debug\WPFChat.Library.pdb
+C:\temp\WPFChat\WPFChat.Library\obj\Debug\WPFChat.Library.dll
+C:\temp\WPFChat\WPFChat.Library\obj\Debug\WPFChat.Library.pdb
