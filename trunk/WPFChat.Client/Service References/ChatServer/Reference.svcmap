@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4aa4abd6-6f1f-46c6-827c-0425a72e741b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/ChatServer/mex" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="mex1.xsd" MetadataType="Schema" ID="6bc5d025-c378-4d56-88d0-c134ad216a7e" SourceId="1" SourceUrl="http://localhost:8000/ChatServer/mex?xsd=xsd2" />
+    <MetadataFile FileName="mex2.xsd" MetadataType="Schema" ID="14bc1a6e-6344-46de-bf27-ead1a35fdd4b" SourceId="1" SourceUrl="http://localhost:8000/ChatServer/mex?xsd=xsd0" />
+    <MetadataFile FileName="mex.xsd" MetadataType="Schema" ID="47a3de6b-7e3b-4db8-a7bf-5227015ece17" SourceId="1" SourceUrl="http://localhost:8000/ChatServer/mex?xsd=xsd1" />
+    <MetadataFile FileName="ChatServer.wsdl" MetadataType="Wsdl" ID="bc72fee7-0dd6-43b1-8341-8a19868c8fc8" SourceId="1" SourceUrl="http://localhost:8000/ChatServer/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

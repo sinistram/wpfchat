@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="10.0.0.0" Id="f4b12744-6355-4660-9b53-a70d051608e9" name="MainWindow_btnLogOff_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="f998d658-2fc3-48fb-9afb-cf4a5056990a" name="MainWindow_btnLogOff_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isTemplate="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="e8e411a5-9296-4ff0-a4ea-77c65a048810">
+            <coveredLifelines>
+              <lifelineMoniker Id="92a0a898-0468-43c8-b1d5-26c5a7e3ef60" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="379e8e72-979f-477f-a1bb-ccad4fceb24f" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="37353021-be1f-4c6b-ad8b-426e420f9e10" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="51c4eff4-9196-4c65-a1ea-035b55711818" />
+              <messageOccurrenceSpecificationMoniker Id="4bd66d45-e57b-4f58-807a-6ce53dce22b1" />
+              <messageOccurrenceSpecificationMoniker Id="1e4fefa4-949d-4d15-82d1-225c1a06f6b4" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <messageOccurrenceSpecification Id="51c4eff4-9196-4c65-a1ea-035b55711818">
+            <covered>
+              <lifelineMoniker Id="92a0a898-0468-43c8-b1d5-26c5a7e3ef60" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="37353021-be1f-4c6b-ad8b-426e420f9e10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="8c605fe7-d6af-46a3-8920-606092a52b50" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92a0a898-0468-43c8-b1d5-26c5a7e3ef60" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="e3aa9147-011f-493b-9b32-d208e7f04953" />
+          <executionOccurrenceSpecification Id="ae5201b5-20fd-470a-a077-a1a91096869b">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9a0364d2-df01-4f68-9dad-20e2c5987820" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="025c59a9-0a00-45bd-a3bd-22112c005469">
+            <coveredLifelines>
+              <lifelineMoniker Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="d88bdcfd-d877-475a-a759-cbad4ce6489b" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="ae5201b5-20fd-470a-a077-a1a91096869b" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="8e56a896-02e9-4003-a85a-1f6d984ef092" />
+              <messageOccurrenceSpecificationMoniker Id="c290319c-b47d-43d0-8d7f-01e39549b34f" />
+              <messageOccurrenceSpecificationMoniker Id="58185ee7-c8c0-417e-87d7-ccb06a81bafe" />
+              <messageOccurrenceSpecificationMoniker Id="44f4b9cb-dae3-413e-b71f-04822de476c9" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <messageOccurrenceSpecification Id="8e56a896-02e9-4003-a85a-1f6d984ef092">
+            <covered>
+              <lifelineMoniker Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4bd66d45-e57b-4f58-807a-6ce53dce22b1">
+            <covered>
+              <lifelineMoniker Id="92a0a898-0468-43c8-b1d5-26c5a7e3ef60" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6f4ab373-a794-4dd3-8c97-f696dc49da75">
+            <covered>
+              <lifelineMoniker Id="f73837e1-cbb9-44a4-97cd-eb9ad7bb9d23" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c290319c-b47d-43d0-8d7f-01e39549b34f">
+            <covered>
+              <lifelineMoniker Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="b773c4ba-8f1c-472f-8833-f787a7318922">
+            <coveredLifelines>
+              <lifelineMoniker Id="f73837e1-cbb9-44a4-97cd-eb9ad7bb9d23" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="25494cfc-af3e-4ef7-a389-ced9e35dc169" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="18341d25-d072-44bb-871b-e7f143576267" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="6f4ab373-a794-4dd3-8c97-f696dc49da75" />
+              <messageOccurrenceSpecificationMoniker Id="a8be5e5a-69ee-43ea-8cf2-fc8a3177f63b" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="18341d25-d072-44bb-871b-e7f143576267">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="b6ab6c44-1c25-4e1f-8198-5a816e1c059e" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="f73837e1-cbb9-44a4-97cd-eb9ad7bb9d23" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="58185ee7-c8c0-417e-87d7-ccb06a81bafe">
+            <covered>
+              <lifelineMoniker Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a8be5e5a-69ee-43ea-8cf2-fc8a3177f63b">
+            <covered>
+              <lifelineMoniker Id="f73837e1-cbb9-44a4-97cd-eb9ad7bb9d23" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="25494cfc-af3e-4ef7-a389-ced9e35dc169">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="35a40233-f658-4bc0-a206-b8e57899c4f2" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="f73837e1-cbb9-44a4-97cd-eb9ad7bb9d23" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1e4fefa4-949d-4d15-82d1-225c1a06f6b4">
+            <covered>
+              <lifelineMoniker Id="92a0a898-0468-43c8-b1d5-26c5a7e3ef60" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="d88bdcfd-d877-475a-a759-cbad4ce6489b">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="86fe885b-8fb1-4765-9067-3ee3c81a761f" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="44f4b9cb-dae3-413e-b71f-04822de476c9">
+            <covered>
+              <lifelineMoniker Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="379e8e72-979f-477f-a1bb-ccad4fceb24f">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="b7cdf525-6e71-49da-8210-8f85aa5fb04a" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="92a0a898-0468-43c8-b1d5-26c5a7e3ef60" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="92a0a898-0468-43c8-b1d5-26c5a7e3ef60" name="Lifeline1" isActor="false" lifelineDisplayName="this : MainWindow" referencedInstance="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.MainWindow : Object instance 1" referencedType="MainWindow">
+            <referencesInternal>
+              <reference Id="a187253d-2b7d-4188-90aa-206b68f22876" handle="+ &quot;Microsoft.Solution.ClassView&quot; //+ Id.EqualsIgnoreCase(&quot;WPFChat.Client&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.MainWindow&quot;)" tag="DGQL" />
+              <reference Id="6d7ebf75-960a-4082-b2df-fba2e875ea48" handle="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.MainWindow" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="37353021-be1f-4c6b-ad8b-426e420f9e10" />
+              <executionOccurrenceSpecificationMoniker Id="379e8e72-979f-477f-a1bb-ccad4fceb24f" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="d3ac2c1b-58da-4f53-ab77-289b8760a99a" name="Lifeline2" isActor="false" lifelineDisplayName="this.m_Client : ChatServerClient" referencedInstance="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.MainWindow.m_Client : Object instance 7" referencedType="ChatServerClient">
+            <referencesInternal>
+              <reference Id="4c3283df-f0fd-4006-9620-6155c33b7de3" handle="+ &quot;Microsoft.Solution.ClassView&quot; //+ Id.EqualsIgnoreCase(&quot;WPFChat.Client.ChatServer&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.ChatServerClient&quot;)" tag="DGQL" />
+              <reference Id="5ab34070-bda2-4bcd-ab2e-c7bc2999af80" handle="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.ChatServerClient" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="ae5201b5-20fd-470a-a077-a1a91096869b" />
+              <executionOccurrenceSpecificationMoniker Id="d88bdcfd-d877-475a-a759-cbad4ce6489b" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="f73837e1-cbb9-44a4-97cd-eb9ad7bb9d23" name="Lifeline3" isActor="false" lifelineDisplayName="Channel : IChatServer" referencedInstance="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.ChatServerClient.LogoffClient(file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll#System.String).Block&lt;1&gt;.Call&lt;1&gt;.PropertyExpr&lt;2&gt;. : Object instance 8" referencedType="IChatServer">
+            <referencesInternal>
+              <reference Id="22cceb1c-de5c-4021-b511-9886f33d4049" handle="+ &quot;Microsoft.Solution.ClassView&quot; //+ Id.EqualsIgnoreCase(&quot;WPFChat.Client.ChatServer&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.IChatServer&quot;)" tag="DGQL" />
+              <reference Id="443c3e48-e172-4060-a9fc-9420eafc7bf7" handle="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.IChatServer" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="18341d25-d072-44bb-871b-e7f143576267" />
+              <executionOccurrenceSpecificationMoniker Id="25494cfc-af3e-4ef7-a389-ced9e35dc169" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="b466e099-786b-4b08-bf17-d67c4188e2b0" name="btnLogOff_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="1ce34e27-65e7-49c5-a416-480e2d523713" handle="+ &quot;Microsoft.Solution.ClassView&quot; //+ Id.EqualsIgnoreCase(&quot;WPFChat.Client&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.MainWindow&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.MainWindow.btnLogOff_Click(file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll#System.Object,file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/v3.0/PresentationCore.dll#System.Windows.RoutedEventArgs)&quot;)" tag="DGQL" />
+              <reference Id="93771b03-285e-44dc-876a-24b1d877d3cd" handle="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.MainWindow.btnLogOff_Click(file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll#System.Object,file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/v3.0/PresentationCore.dll#System.Windows.RoutedEventArgs)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="e3aa9147-011f-493b-9b32-d208e7f04953" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="51c4eff4-9196-4c65-a1ea-035b55711818" />
+            </receiveEvent>
+          </message>
+          <message Id="66850766-3af9-4bd2-9a3b-f5dc1c42e29c" name="LogoffClient" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="b40c8992-8996-4693-a8ee-f000725edfdc" handle="+ &quot;Microsoft.Solution.ClassView&quot; //+ Id.EqualsIgnoreCase(&quot;WPFChat.Client.ChatServer&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.ChatServerClient&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.ChatServerClient.LogoffClient(file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll#System.String)&quot;)" tag="DGQL" />
+              <reference Id="3d525728-ca23-4853-ab99-87520367c590" handle="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.ChatServerClient.LogoffClient(file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll#System.String)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="4bd66d45-e57b-4f58-807a-6ce53dce22b1" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="8e56a896-02e9-4003-a85a-1f6d984ef092" />
+            </receiveEvent>
+          </message>
+          <message Id="a6a9b061-e791-4047-87af-8daee205cb0c" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="44f4b9cb-dae3-413e-b71f-04822de476c9" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="1e4fefa4-949d-4d15-82d1-225c1a06f6b4" />
+            </receiveEvent>
+          </message>
+          <message Id="ad811585-2f45-4fcc-9eb0-1c502475473d" name="LogoffClient" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="dd8a1864-aeba-4978-8524-6d56c3a4fc23" handle="+ &quot;Microsoft.Solution.ClassView&quot; //+ Id.EqualsIgnoreCase(&quot;WPFChat.Client.ChatServer&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.IChatServer&quot;)/&quot;Microsoft.Contains&quot;/+ Id.EqualsIgnoreCase(&quot;file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.IChatServer.LogoffClient(file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll#System.String)&quot;)" tag="DGQL" />
+              <reference Id="bdcd5a00-0daa-4533-9a9e-3bc5d94405e8" handle="file:///C:/temp/WPFChat/WPFChat.Client/bin/Debug/WPFChat.Client.exe#WPFChat.Client.ChatServer.IChatServer.LogoffClient(file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll#System.String)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c290319c-b47d-43d0-8d7f-01e39549b34f" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="6f4ab373-a794-4dd3-8c97-f696dc49da75" />
+            </receiveEvent>
+          </message>
+          <message Id="34246562-bea4-4ca1-8eff-00e4fba9cf36" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="a8be5e5a-69ee-43ea-8cf2-fc8a3177f63b" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="58185ee7-c8c0-417e-87d7-ccb06a81bafe" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="8c605fe7-d6af-46a3-8920-606092a52b50" name="ExecutionEvent1" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="b7cdf525-6e71-49da-8210-8f85aa5fb04a" name="ExecutionEvent2" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9a0364d2-df01-4f68-9dad-20e2c5987820" name="ExecutionEvent3" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="86fe885b-8fb1-4765-9067-3ee3c81a761f" name="ExecutionEvent4" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="b6ab6c44-1c25-4e1f-8198-5a816e1c059e" name="ExecutionEvent5" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="35a40233-f658-4bc0-a206-b8e57899c4f2" name="ExecutionEvent6" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
