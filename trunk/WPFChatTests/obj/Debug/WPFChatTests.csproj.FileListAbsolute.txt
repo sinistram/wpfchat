@@ -1,7 +1,0 @@
-C:\temp\WPFChat\WPFChatTests\obj\Debug\ResolveAssemblyReference.cache
-C:\temp\WPFChat\WPFChatTests\bin\Debug\WPFChatTests.dll
-C:\temp\WPFChat\WPFChatTests\bin\Debug\WPFChatTests.pdb
-C:\temp\WPFChat\WPFChatTests\bin\Debug\WPFChat.Library.dll
-C:\temp\WPFChat\WPFChatTests\bin\Debug\WPFChat.Library.pdb
-C:\temp\WPFChat\WPFChatTests\obj\Debug\WPFChatTests.dll
-C:\temp\WPFChat\WPFChatTests\obj\Debug\WPFChatTests.pdb
