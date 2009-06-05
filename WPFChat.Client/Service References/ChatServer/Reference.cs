@@ -21,8 +21,11 @@ namespace WPFChat.Client.ChatServer {
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IChatServer/LogoffClient")]
         void LogoffClient(string loginId);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChatServer/SendMessage", ReplyAction="http://tempuri.org/IChatServer/SendMessageResponse")]
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IChatServer/SendMessage")]
         void SendMessage(string loginIdFrom, string loginIdTo, string message);
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IChatServer/BroadcastMessage")]
+        void BroadcastMessage(string loginIdFrom, string message);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IChatServer/GetAvatars", ReplyAction="http://tempuri.org/IChatServer/GetAvatarsResponse")]
         WPFChat.Library.Avatar[] GetAvatars();
@@ -33,6 +36,9 @@ namespace WPFChat.Client.ChatServer {
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IChatServer/ReceiveMessage")]
         void ReceiveMessage(string loginIdFrom, string message);
+        
+        [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IChatServer/ReceiveBroadcastMessage")]
+        void ReceiveBroadcastMessage(string loginIdFrom, string message);
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IChatServer/ReceiveUserList")]
         void ReceiveUserList(WPFChat.Library.ClientInfo[] loggedInUsers);
@@ -79,6 +85,10 @@ namespace WPFChat.Client.ChatServer {
         
         public void SendMessage(string loginIdFrom, string loginIdTo, string message) {
             base.Channel.SendMessage(loginIdFrom, loginIdTo, message);
+        }
+        
+        public void BroadcastMessage(string loginIdFrom, string message) {
+            base.Channel.BroadcastMessage(loginIdFrom, message);
         }
         
         public WPFChat.Library.Avatar[] GetAvatars() {

@@ -60,15 +60,24 @@ namespace WPFChat.Client
 
         private void btnSend_Click(object sender, RoutedEventArgs e)
         {
-            if (txtNewMessage.Text.Trim().Length > 0)
+            this.SendChatMessage();
+        }
+
+        private void txtNewMessage_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
             {
-                OnSendMessage(txtNewMessage.Text.Trim());
+                this.SendChatMessage();
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void SendChatMessage()
         {
-
+            if (txtNewMessage.Text.Trim().Length > 0)
+            {
+                OnSendMessage(txtNewMessage.Text.Trim());
+                txtNewMessage.Clear();
+            }
         }
     }
 }

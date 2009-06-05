@@ -1,0 +1,5 @@
+D:\Teo\googlecode\WPFChat\WPFChat.Library\bin\Debug\WPFChat.Library.dll
+D:\Teo\googlecode\WPFChat\WPFChat.Library\bin\Debug\WPFChat.Library.pdb
+D:\Teo\googlecode\WPFChat\WPFChat.Library\obj\Debug\ResolveAssemblyReference.cache
+D:\Teo\googlecode\WPFChat\WPFChat.Library\obj\Debug\WPFChat.Library.dll
+D:\Teo\googlecode\WPFChat\WPFChat.Library\obj\Debug\WPFChat.Library.pdb

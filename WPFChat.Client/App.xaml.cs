@@ -12,5 +12,19 @@ namespace WPFChat.Client
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            try
+            {
+                //WPFChat.Client.MainWindow.MainWindow mainWindow = new WPFChat.Client.MainWindow.MainWindow();
+                //App.Current.Run(mainWindow);
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
     }
 }

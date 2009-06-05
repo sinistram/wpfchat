@@ -32,9 +32,12 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="SendMessageResponse">
+  <xs:element name="BroadcastMessage">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element minOccurs="0" name="loginIdFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GetAvatars">
@@ -50,6 +53,14 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="ReceiveMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="loginIdFrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ReceiveBroadcastMessage">
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="loginIdFrom" nillable="true" type="xs:string" />

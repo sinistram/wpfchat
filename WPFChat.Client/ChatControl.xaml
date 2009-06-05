@@ -10,6 +10,7 @@
             <GradientStop Color="White" Offset="1"/>
         </LinearGradientBrush>
     </UserControl.Resources>
+    
     <DockPanel>
         <TextBox Name="txtChat" 
                  Margin="4" 
@@ -22,19 +23,9 @@
         </TextBox>
         <Separator></Separator>
         <StackPanel Orientation="Horizontal">
-            <DockPanel>
-                <TextBox Name="txtNewMessage" Margin="4" DockPanel.Dock="Left" MinWidth="100"></TextBox>
-
-                <Button DockPanel.Dock="Right" Name="btnSendFile"
-                        Margin="4"
-                        Click="Button_Click"
-                        Background="{StaticResource btnBackground}">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="{StaticResource imgSendFile}" Width="16" Height="16" RenderOptions.BitmapScalingMode="NearestNeighbor"/>
-                        <TextBlock Text="Send file" />
-                    </StackPanel>
-                    </Button>
-                <Button DockPanel.Dock="Right" Margin="4" 
+            <DockPanel LastChildFill="True">
+                <TextBox Name="txtNewMessage" Margin="4" MinWidth="100" Width="150" HorizontalAlignment="Left" KeyDown="txtNewMessage_KeyDown"></TextBox>
+                <Button Margin="4" 
                         Name="btnSend" 
                         Click="btnSend_Click"
                         Background="{StaticResource btnBackground}">
@@ -42,10 +33,16 @@
                         <Image Source="{StaticResource imgSendMessage}" Width="16" Height="16" RenderOptions.BitmapScalingMode="NearestNeighbor"/>
                         <TextBlock Text="Send message" />
                     </StackPanel>
-                    
                 </Button>
+                <Button Name="btnSendFile"
+                        Margin="4"
+                        Background="{StaticResource btnBackground}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{StaticResource imgSendFile}" Width="16" Height="16" RenderOptions.BitmapScalingMode="NearestNeighbor"/>
+                        <TextBlock Text="Send file" />
+                    </StackPanel>
+                    </Button>
             </DockPanel>
-            
         </StackPanel>
     </DockPanel>
     
