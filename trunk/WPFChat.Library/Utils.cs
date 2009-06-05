@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
+using System.Diagnostics;
 
 namespace WPFChat.Library
 {
@@ -75,6 +76,19 @@ namespace WPFChat.Library
             img.Tag = avatar;
 
             return img;
+        }
+
+        public static void LogCurrentMethodCall()
+        {
+            StackTrace trace = new StackTrace();
+            
+            string logMessage = ">>call>>";
+            logMessage += trace.GetFrame(1).GetMethod().DeclaringType.Name + "." +
+                trace.GetFrame(1).GetMethod().Name + "()";
+
+
+
+            Console.WriteLine(logMessage);
         }
     }
 }

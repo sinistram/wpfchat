@@ -1,4 +1,4 @@
-﻿<Window x:Class="WPFChat.Client.MainWindow"
+﻿<Window x:Class="WPFChat.Client.MainWindow.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:chat="clr-namespace:WPFChat.Client"
@@ -7,7 +7,7 @@
         MouseLeftButtonDown="Window_MouseLeftButtonDown" 
         AllowsTransparency="True" Background="Transparent" 
         Height="300" Width="550" 
-        MinHeight="300" MinWidth="550">
+        MinHeight="300" MinWidth="550" WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
         <Style TargetType="{x:Type Border}" x:Key = "MainBorder">

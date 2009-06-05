@@ -7,6 +7,6 @@ namespace WPFChat.Library
 {
     public class Constants
     {
-        public const int ClientCheckInterval = 1000;
+        public const int ClientCheckInterval = 3000;
     }
 }

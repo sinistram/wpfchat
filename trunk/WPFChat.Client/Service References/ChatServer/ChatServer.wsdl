@@ -48,8 +48,8 @@
   <wsdl:message name="IChatServer_SendMessage_InputMessage">
     <wsdl:part name="parameters" element="tns:SendMessage" />
   </wsdl:message>
-  <wsdl:message name="IChatServer_SendMessage_OutputMessage">
-    <wsdl:part name="parameters" element="tns:SendMessageResponse" />
+  <wsdl:message name="IChatServer_BroadcastMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:BroadcastMessage" />
   </wsdl:message>
   <wsdl:message name="IChatServer_GetAvatars_InputMessage">
     <wsdl:part name="parameters" element="tns:GetAvatars" />
@@ -59,6 +59,9 @@
   </wsdl:message>
   <wsdl:message name="IChatServer_ReceiveMessage_OutputCallbackMessage">
     <wsdl:part name="parameters" element="tns:ReceiveMessage" />
+  </wsdl:message>
+  <wsdl:message name="IChatServer_ReceiveBroadcastMessage_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ReceiveBroadcastMessage" />
   </wsdl:message>
   <wsdl:message name="IChatServer_ReceiveUserList_OutputCallbackMessage">
     <wsdl:part name="parameters" element="tns:ReceiveUserList" />
@@ -79,7 +82,9 @@
     </wsdl:operation>
     <wsdl:operation name="SendMessage">
       <wsdl:input wsaw:Action="http://tempuri.org/IChatServer/SendMessage" message="tns:IChatServer_SendMessage_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IChatServer/SendMessageResponse" message="tns:IChatServer_SendMessage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IChatServer/BroadcastMessage" message="tns:IChatServer_BroadcastMessage_InputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GetAvatars">
       <wsdl:input wsaw:Action="http://tempuri.org/IChatServer/GetAvatars" message="tns:IChatServer_GetAvatars_InputMessage" />
@@ -87,6 +92,9 @@
     </wsdl:operation>
     <wsdl:operation name="ReceiveMessage">
       <wsdl:output wsaw:Action="http://tempuri.org/IChatServer/ReceiveMessage" message="tns:IChatServer_ReceiveMessage_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReceiveBroadcastMessage">
+      <wsdl:output wsaw:Action="http://tempuri.org/IChatServer/ReceiveBroadcastMessage" message="tns:IChatServer_ReceiveBroadcastMessage_OutputCallbackMessage" />
     </wsdl:operation>
     <wsdl:operation name="ReceiveUserList">
       <wsdl:output wsaw:Action="http://tempuri.org/IChatServer/ReceiveUserList" message="tns:IChatServer_ReceiveUserList_OutputCallbackMessage" />
@@ -119,9 +127,12 @@
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
-      <wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastMessage">
+      <soap12:operation soapAction="http://tempuri.org/IChatServer/BroadcastMessage" style="document" />
+      <wsdl:input>
         <soap12:body use="literal" />
-      </wsdl:output>
+      </wsdl:input>
     </wsdl:operation>
     <wsdl:operation name="GetAvatars">
       <soap12:operation soapAction="http://tempuri.org/IChatServer/GetAvatars" style="document" />
@@ -134,6 +145,12 @@
     </wsdl:operation>
     <wsdl:operation name="ReceiveMessage">
       <soap12:operation soapAction="http://tempuri.org/IChatServer/ReceiveMessage" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReceiveBroadcastMessage">
+      <soap12:operation soapAction="http://tempuri.org/IChatServer/ReceiveBroadcastMessage" style="document" />
       <wsdl:output>
         <soap12:body use="literal" />
       </wsdl:output>
