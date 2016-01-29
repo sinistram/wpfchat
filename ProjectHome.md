@@ -1,0 +1,1 @@
+Simple chat application, created in C# with .net 3.5, WCF & WPF
